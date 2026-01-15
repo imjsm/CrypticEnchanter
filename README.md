@@ -57,12 +57,13 @@ SecureShield/
 sudo apt install openssl libssl-dev gcc
 Compile
 bash
-Copy code
+
 gcc ENCRYPT_file.c -o ENCRYPT_file -lcrypto
 gcc DECRYPT_file.c -o DECRYPT_file -lcrypto
+
 Run
 bash
-Copy code
+
 chmod +x CrypticEnchanter.sh
 ./CrypticEnchanter.sh
 ```
@@ -74,7 +75,6 @@ Integrity verified using sha256sum
 Linear performance scaling with file size
 
 ##📸 Screenshots
-(Add screenshots here)
 
 ![Menu Screenshot](screenshots/menu.png)
 ![Encryption Output](screenshots/encryption.png)
